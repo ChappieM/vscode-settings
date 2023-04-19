@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Iceberg Light",
+    "workbench.iconTheme": "vscode-icons",
+    
+    "workbench.colorCustomizations": {
+         "editor.selectionBackground": "#c8bed8" // light
+        // "editor.selectionBackground": "#703f6f" // dark
+    },
+    
+    "editor.fontFamily": "'PlemolJP Console NF'",
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+
+    "[python]": {
+        "editor.formatOnType": true
+    },
+}
