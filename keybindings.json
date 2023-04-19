@@ -1,0 +1,12 @@
+[
+    {
+        "key":"Ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal",
+        "when":""
+    },
+    {
+        "key": "Ctrl+K b",
+        "command": "workbench.action.navigateBack",
+        "when": "neovim.mode == normal && editorTextFocus",
+    },
+]
