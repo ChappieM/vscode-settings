@@ -1,17 +1,32 @@
 {
-    "workbench.colorTheme": "Iceberg Light",
-    "workbench.iconTheme": "vscode-icons",
-    
-    "workbench.colorCustomizations": {
-         "editor.selectionBackground": "#c8bed8" // light
-        // "editor.selectionBackground": "#703f6f" // dark
-    },
-    
-    "editor.fontFamily": "'PlemolJP Console NF'",
-    "editor.inlineSuggest.enabled": true,
-    "editor.minimap.enabled": false,
-
-    "[python]": {
-        "editor.formatOnType": true
-    },
+  "workbench.colorTheme": "Kanagawa",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#703f6f" // dark
+  },
+  "editor.fontFamily": "'PlemolJP Console NF'",
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  // python
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+  },
+  "python.linting.enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": [
+    "--config=${workspaceFolder}/.flake8"
+  ],
+  "python.formatting.provider": "black",
+  // isort自動フォーマット
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  // javascript
+  "[typescript][vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
